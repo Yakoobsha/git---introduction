@@ -1,5 +1,5 @@
 import random
-from tkinter import image_types 
+
 lower = "abcdefghijklmnopqurstuvwxyz"
 upper = "ABCDEFGHIJKLMNOPQURSTUVWXYZ"
 NUMBER = "0123456789"
