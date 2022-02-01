@@ -1,3 +1,5 @@
+from tkinter import Y
+
 board = [' ' for x in range(10)]
 
 def insertLetter(letter, pos):
@@ -109,7 +111,7 @@ def main():
                 print('Computer placed an \'O\' in position', move , ':')
                 printBoard(board)
         else:
-            print('X\'s won this time! Good Job!')
+            print('X\'s won this time!  and genuis brillant  Good Job !')
             break
 
     if isBoardFull(board):
@@ -123,3 +125,4 @@ while True:
         main()
     else:
         break
+

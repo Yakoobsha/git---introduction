@@ -1,6 +1,6 @@
 from turtle import *
 speed(11)
-color('cyan')
+color('red')
 bgcolor('black')
 y = 200
 while y > 0 :
